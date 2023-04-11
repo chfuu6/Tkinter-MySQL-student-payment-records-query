@@ -1,5 +1,6 @@
 import mysql.connector
 
+# ==== testing here to make sure i get the right value ====
 connection = mysql.connector.connect(host='localhost',
                                      port='3306',
                                      user='root',

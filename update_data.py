@@ -7,6 +7,8 @@ connection = mysql.connector.connect(host='localhost',
                                      database = 'student')
 cursor = connection.cursor()
 
+
+# ==== upload data to mySQL ====
 import json
 with open('student_info.json', 'r', encoding='utf-8') as f:
     data = json.load(f)

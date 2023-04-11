@@ -1,5 +1,6 @@
 import mysql.connector
 
+# ==== practice using python to connect mySQL ====
 connection = mysql.connector.connect(host='localhost',
                                      port='3306',
                                      user='root',

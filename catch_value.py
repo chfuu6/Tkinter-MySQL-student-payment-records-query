@@ -4,6 +4,7 @@ import json
 
 df = pd.read_csv('payment record.csv')
 
+# ==== turn csv to json ====
 student = {}
 # row, col = df.shape
 # print(row, col)
